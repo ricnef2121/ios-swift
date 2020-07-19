@@ -33,6 +33,20 @@
                                     <action selector="swichCambio:" destination="BYZ-38-t0r" eventType="valueChanged" id="de1-4g-AvU"/>
                                 </connections>
                             </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Fj2-ao-E5I">
+                                <rect key="frame" x="183" y="506" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="blueOnChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="gJH-qt-NsA"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ity-eS-xSm">
+                                <rect key="frame" x="183" y="571" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="greenOnChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="Tf2-0X-npM"/>
+                                </connections>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -44,7 +58,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="blueSwitch" destination="Fj2-ao-E5I" id="3Vu-Z8-9eA"/>
                         <outlet property="colorView" destination="JIR-In-3S1" id="jGS-0c-dcj"/>
+                        <outlet property="greenSwitch" destination="Ity-eS-xSm" id="4sk-Wj-vky"/>
+                        <outlet property="redSwitch" destination="h3e-WI-LMp" id="sEc-JF-g0m"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
