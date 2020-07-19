@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TuColor
 //
-//  Created by Daniel on 19/07/20.
+//  Created by Ricardo on 19/07/20.
 //  Copyright © 2020 Ric. All rights reserved.
 //
 

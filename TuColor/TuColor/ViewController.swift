@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  TuColor
 //
-//  Created by Daniel on 19/07/20.
+//  Created by Ricardo on 19/07/20.
 //  Copyright © 2020 Ric. All rights reserved.
 //
 
@@ -18,7 +18,12 @@ class ViewController: UIViewController {
 //acciones
     //cambio de boton
     @IBAction func swichCambio(_ sender: UISwitch) {
-        colorView.backgroundColor = .red
+        //colorView.backgroundColor = .red
+        if sender.isOn {
+            colorView.backgroundColor = .red
+        }else{
+            colorView.backgroundColor = .black
+        }
     }
     
 }
